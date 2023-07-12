@@ -22,19 +22,19 @@ cases.
 <br>● Provide informative error messages when assertions fail to aid in debugging.
 
 <h3>Solution</h3>
-Unit test .py file : 
-Run the tests on cli using the command : python telco_test.py
-Requirements - 2 csv files are needed in same directory:
-1- test_data.csv ... this contains the source telco data
-2- empty_data.csv ... blank csv needed for the data_extraction test case 2
+Unit test .py file : <b>telco_test.py</b>
+<br>Run the tests on cli using the command : <b>python telco_test.py</b>
+<br>Requirements - 2 csv files are needed in same directory:
+<br>1- <b>test_data.csv</b> ... this contains the source telco billing data
+<br>2- <b>empty_data.csv</b> ... blank csv needed for the data_extraction test case 2
 
-When all tests successful you get OK message as seen below:
+<br>When all tests successful you get 'OK' message as seen below:
 
-C:\Users\Joe Kibera\venv>python telco_test.py
-...
-----------------------------------------------------------------------
-Ran 3 tests in 0.015s
-
-OK
+<i>
+>python telco_test.py
+<br>----------------------------------------------------------------------
+<br>Ran 3 tests in 0.015s
+<br>
+OK</i>
 
 
